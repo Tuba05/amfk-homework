@@ -64,5 +64,5 @@ npx playwright show-report
 ## Test Selection
 
 - Elsősorban a vásárlási folyamat kritikus lépéseit választottam ki: bejelentkezés, termék kosárba helyezése, kosár ellenőrzése és a vásárlás sikeres lezárása.
-- A happy pathe-ek mellet lefedtem néhány negatív esetet is, mint például bejelentkezés hibás adatokkal vagy checkout mező hiánya.
-- A cél az volt, hogy csak a legfontosabb folyamatokra és azok validációit ellenőrizzem, mindezt anélkül, hogy minden lehetséges sceneriora külön-külön tesztet írnék.
+- A happy path mellett lefedtem néhány negatív esetet is, például a hibás bejelentkezési adatokat és a kötelező checkout mező hiányát.
+- A cél az volt, hogy a legfontosabb folyamatokat és azok validációit ellenőrizzem, anélkül, hogy minden lehetséges szcenárióra külön tesztet írnék.

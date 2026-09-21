@@ -1,0 +1,15 @@
+{
+  "customer": {
+    "firstName": "Bence",
+    "lastName": "Tester",
+    "postalCode": "1234"
+  },
+  "validation": {
+    "emptyFirstName": {
+      "firstName": "",
+      "lastName": "Tester",
+      "postalCode": "1234",
+      "errorMessage": "Error: First Name is required"
+    }
+  }
+}
